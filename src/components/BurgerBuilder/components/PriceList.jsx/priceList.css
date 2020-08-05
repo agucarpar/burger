@@ -1,0 +1,15 @@
+.bold{
+    font-weight: bold;
+}
+
+.bold span{
+    font-weight: 400;
+}
+
+.removeBullet{
+    list-style-type: none;
+}
+
+.moveLeft {
+    margin-left: -40px;
+}

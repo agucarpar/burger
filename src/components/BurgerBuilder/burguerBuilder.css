@@ -1,0 +1,69 @@
+.capitalize{
+    text-transform: capitalize;
+}
+
+.buildControl {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin: 5px 0;
+}
+
+
+.center {
+    text-align: -webkit-center;
+}
+
+.buildControl button {
+    display: block;
+    font: inherit;
+    padding: 5px;
+    margin: 0 0 10px;
+    width: 80px;
+    border: 1px solid #AA6817;
+    cursor: pointer;
+    outline: none;
+}
+
+.buildControl button:disabled {
+    background-color: #AC9980;
+    border: 1px solid #7E7365;
+    color: #ccc;
+    cursor: default;
+}
+
+.buildControl button:hover:disabled {
+    background-color: #AC9980;
+    color: #ccc;
+    cursor: not-allowed;
+}
+
+.label {
+    padding: 10px;
+    font-weight: bold;
+    width: 80px;
+}
+
+.less {  
+    background-color: #D39952;
+    color: white;
+}
+
+.more {
+    background-color: #8F5E1E;
+    color: white;
+}
+
+.buildControl .less:hover, .buildControl .less:active {  
+    background-color: #DAA972;
+    color: white;
+}
+
+.buildControl .more:hover,.buildControl .more:active {
+    background-color: #99703F;
+    color: white;
+}
+.resetButton {
+    background-color: rgb(141, 28, 62);
+    color:white;
+}
